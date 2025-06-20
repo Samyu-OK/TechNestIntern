@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/puzzle.png">
+        <title>Quizzy Quiz</title>
+    </head>
+    <center>
+    <link rel="stylesheet" href="style.css">
+       <body>
+      
+    <div class="container">
+        <div class="one">
+            <h2>Welcome to Quizzy Quiz</h2>
+        </div>
+        <div class="one">
+            <h3>Wanna test your Knowledge ?</h3>
+        </div>
+            <div class="h3">
+                <h3>Choose any one</h3>
+            </div>
+            <div id="category" class="three">
+                <button class="option" onclick="selectcat('Geopolitical')">Geopolitical</button>
+                <button class="option" onclick="selectcat('Artist')">Artist</button>
+                <button class="option" onclick="selectcat('Biology')">Biology</button>
+                <button class="option" onclick="selectcat('Programming')">Programming</button>
+             </div>
+             
+                 
+             <div>
+                <h2 id="selectcatname" class="cat"></h2>
+                <button class="start" onclick="start()">Start Quiz</button>
+             </div>
+             </div>
+    
+    <div class="questions">
+        <header class="head">
+            <h2 class="headtitle">Quizzy Quiz 🌟</h2>
+            <div class="timer" >
+                <span class="lifespan">🕒</span>
+                <p class="duration">15s</p>
+            </div>
+        </header>
+        <br>
+        <hr>
+        <div class="contentbox">
+            <h1 class="ques"></h1>
+            <div class="ans"></div>
+            </div>
+            <button  class="nexton" onclick="nextone()" disabled>Next</button>
+            <div onclick="nextone()">
+                <p class="nextnum">Question No: 1 out of 10</p>
+             </div>
+        </div>
+      </div>
+   <div class="end"></div> 
+   <div>
+        <button class="backtostart1" onclick="backtostart()">Back</button>
+   </div>
+   
+  <script src="script.js"></script>
+    </body>
+    </center>
+</html>
+
+
+
