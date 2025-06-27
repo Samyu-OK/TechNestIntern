@@ -12,23 +12,23 @@ A responsive, interactive to-do list web application using HTML, CSS, and JavaSc
 
 
 ## Features
-1. Add Tasks
+1. Add Tasks:
 Adds new tasks through a simple input interface.
-2. Edit Tasks
+2. Edit Tasks:
 Can Modify existing tasks without removing them.
-3. Delete Tasks 
+3. Delete Tasks: 
 Individual tasks can be removed permanently if not needed.
-4. Mark as Completed
+4. Mark as Completed:
 Visually indicates completed tasks via checkboxes, styling (e.g., strike-through).
-5. Task Filtering
+5. Task Filtering:
 Toggles between all, completed, and pending task views.
-6. Local Storage Integration 
+6. Local Storage Integration :
 Tasks are stored persistently across sessions using `localStorage`.
-7. Responsive Design
+7. Responsive Design:
 Fully functional on desktops, tablets, and mobile devices.
-8. Tracks Task 
+8. Tracks Task: 
 Tracks number of pending task and Completed task by using a progress bar and progress label. 
-9. Minimal and Clean UI
+9. Minimal and Clean UI:
 Focused on usability and readability.
 
 
