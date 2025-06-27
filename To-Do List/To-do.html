@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/notebook.png">
+    <title>Ontrac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <center>
+
+        <div class="headtitle">
+            <h1 class="headline">To-Do List
+            <img src="img/post-it.png" width="30px"height="30px" padding-left="10px">   
+            </h1>
+            <button class="go" onclick="complete()"><img src="img/right.png"></button>
+              
+        </div>
+        </center>
+        
+        <div class="in">
+                <input type="text" class="char-text" placeholder="Enter the Task">
+                <button class="add" onclick="addtasks()">Add</button>
+        </div>
+        <div class="tasks">
+            <ul class="task-container">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                
+            </ul>
+        </div>
+
+        </div>
+        <div class="completed">
+            <div class="headtitle1">
+            <h1 class="headline1">Completed List
+            <img src="img/post-it.png" width="30px"height="30px" padding-left="10px">   
+            </h1>
+            <button class="back" onclick="goback()"><img src="img/left.png"></button>
+            </div>
+            <div>
+            </div>  
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
