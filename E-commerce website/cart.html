@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="icon" href="img/eagle.png" />
+  <title>Monté Blanɔk</title>
+  <link rel="stylesheet" href="cart.css" />
+  <script defer src="cart.js"></script>
+</head>
+<body class="bgim">
+
+  <div class="containers">
+    <div class="cart-head">Cart</div>
+  <div class="bar" onclick="menu()">
+    <img src="img/menubar.png" alt="Menu Icon" />
+  </div>
+
+  <ul class="nav-list">
+    <li class="nav-item"><a href="index.html">Home</a></li>
+    <li class="nav-item"><a href="cart.html">Cart</a></li>
+    <li class="nav-item"><a href="order.html">Order</a></li>
+    <li class="nav-item"><a href="services.html">Services</a></li>
+  </ul>
+  </div>
+
+  <ul class="cat">
+    <div class="menubar" onclick="bae()">
+      <img src="img/menubar.png" alt="Menu Icon" />
+    </div>
+    <li class="collect"><a href="products.html">Women's Collection</a></li>
+    <li class="collect"><a href="watches.html">Men's Collection</a></li>
+    <li class="collect"><a href="new.html">New Arrivals</a></li>
+    <li class="collect"><a href="pocket.html">Pocket Watch Collections</a></li>
+  </ul>
+
+  
+  <div id="cart" class="section" style="padding: 50px">
+    <ul id="cart-items"></ul>
+    <h3 id="total"></h3>
+
+  
+  </div>
+
+  
+ <div id="img-popup" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.8); justify-content: center; align-items: center; z-index: 999;">
+    <span onclick="closeImgPopup()" style="position: absolute; top: 20px; right: 30px; font-size: 30px; color: white; cursor: pointer;">×</span>
+    <img id="popup-imgage" style="max-width: 80%; max-height: 80%;" />
+  </div>
+
+</body>
+</html>
+<script>
+document.querySelector(".buy").addEventListener("click", () => {
+  const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  if (!cartItems.length) {
+    alert("Your cart is empty!");
+    return;
+  }
+
+  localStorage.setItem("orderItems", JSON.stringify(cartItems));
+  window.location.href = "order.html";
+});
+</script>
