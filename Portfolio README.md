@@ -1,11 +1,9 @@
 
 # Portfolio
 
-Task-3 Completed Personal Portfolio 
+Personal Portfolio 
 
-Developed as an Frontend Developer Intern for TechNest Intern
-
-Developed a personal Portfolio website to showcase skills and projects, using Tailwind CSS, Animations using React.js and Three.js for interactive and visually Engaging user experience.
+Developed a personal Portfolio website to showcase my skills and projects, using Tailwind CSS, Animations using React.js and Three.js for interactive and visually Engaging user experience.
 
 
 
@@ -50,10 +48,7 @@ Developed a personal Portfolio website to showcase skills and projects, using Ta
 ![8](https://github.com/user-attachments/assets/b339cc8e-f1ce-4f72-884e-6eccaff57d95)
 ![9](https://github.com/user-attachments/assets/efad9d2c-eb7a-473a-8fc6-96a09aed6158)
 ![10](https://github.com/user-attachments/assets/9554e85d-f58a-4ef3-8013-36e9a4fa6cd2)
-![11](https://github.com/user-attachments/assets/baff8e73-d4d3-4f97-aec3-20b55a6f8a7c)
-![12](https://github.com/user-attachments/assets/ce08bea9-7879-4efe-a9cb-cec4a00032b3)
-![13](https://github.com/user-attachments/assets/08be3af7-b700-4aa4-ac42-5b4e174684bf)
-![14](https://github.com/user-attachments/assets/9f8ff22e-9720-4fa6-9dfa-7856fe673e35)
+
 ## Deployment
 
 https://samyu.space/
